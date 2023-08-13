@@ -24,7 +24,7 @@ nav ul li ul li {
 input[type="text"],
 select {
   background: none;
-  padding: 0 1rem;
+  padding: 0 3rem;
 }
 
 .user_nav_area ul li {
