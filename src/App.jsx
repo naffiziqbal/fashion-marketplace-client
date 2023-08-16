@@ -4,7 +4,7 @@ import MainLayout from "./components/Shared/Layout/MainLayout";
 function App() {
   return (
     <div
-      className={`h-[100vh]`}
+      className={``}
       style={{
         "background-image": "linear-gradient(to right,#984d38,#181e41 )",
       }}

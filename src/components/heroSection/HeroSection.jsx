@@ -6,44 +6,43 @@ import img5 from "../../assets/images/Rectangle 21.png";
 import img6 from "../../assets/images/image 3.png";
 import img7 from "../../assets/images/image 2.png";
 import style from "./HeroSection.module.css";
+import ExploreNow from "../ui/buttons/ExploreNow";
+import CreateButton from "../ui/buttons/CreateButton";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row  mt-12 gap-12 ">
-      <div>
-        <h2 className="font-bold text-[60px] mb-[15px]">
+    <div className="flex flex-col lg:flex-row  mt-12 gap-12">
+      <div className=" ">
+        <h2 className="font-bold lg:text-[60px] md:text-[40px] text-5xl mb-[15px] leading-[64px]">
           Clothes are the <br /> Spirit of Fashion
         </h2>
-        <p className="text-xl text-[#ffffff8c] lg:w-1/2 mb-[35px]">
+        <p className="lg:text-xl text-[#ffffff8c] w-1/2 mb-[35px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           vulputate libero et velit.
         </p>
         {/* Button Groups */}
-        <div className="flex w-1/2 justify-between">
-          <button className="py-[10px] px-[20px] bg-primary rounded-xl text-xl font-semibold">
-            Explore Now
-          </button>
-          <button className="py-[10px] px-[20px] border rounded-xl text-xl font-semibold">
-            {" "}
-            Create
-          </button>
+        <div className="flex lg:w-1/2 justify-evenly lg:justify-start gap-5">
+          <ExploreNow />
+          <CreateButton />
         </div>
         {/* --------------------------------- */}
         {/* --------------------------------- */}
 
         {/*  Statics */}
-        <div className="flex justify-between mt-[50px] w-3/4">
+        <div className="flex justify-between mt-[50px] w-3/4 lg:mx-0 mx-auto">
           <div>
-            <h4 className="0 font-bold  text-4xl ">100+</h4>
-            <p className="text-[#ffffff8a] text-xl">Bands</p>
+            <h4 className=" font-bold  lg:text-4xl md:text-2xl text-xl">
+              100+
+            </h4>
+            <p className="text-[#ffffff8a] lg:text-xl">Bands</p>
           </div>
           <div>
-            <h4 className="0  font-bold text-4xl ">200+</h4>
-            <p className="text-[#ffffff8a] text-xl">Fsahion Design</p>
+            <h4 className="  font-bold lg:text-4xl md:text-2xl">200+</h4>
+            <p className="text-[#ffffff8a] lg:text-xl">Fsahion Design</p>
           </div>
           <div>
-            <h4 className="0  font-bold text-4xl ">20+</h4>
-            <p className="text-[#ffffff8a] text-xl">Shows</p>
+            <h4 className="  font-bold lg:text-4xl md:text-2xl ">20+</h4>
+            <p className="text-[#ffffff8a] lg:text-xl">Shows</p>
           </div>
         </div>
         {/* --------------------------------- */}

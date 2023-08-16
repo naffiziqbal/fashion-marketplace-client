@@ -23,7 +23,7 @@ const Header = () => {
           </label>
         </div>
       </div>
-      <nav className=" w-full">
+      <nav className=" w-full lg:block md:block  hidden">
         <ul className="absolute flex">
           <li>
             <Link>Home</Link>
