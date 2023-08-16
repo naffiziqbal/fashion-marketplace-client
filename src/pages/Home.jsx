@@ -1,3 +1,4 @@
+import BrandSection from "../components/brandSection/BrandSection";
 import HeroSection from "../components/heroSection/HeroSection";
 import CreatorsMarketButton from "../components/ui/buttons/CreatorsMarketButton";
 import MainCollectionButton from "../components/ui/buttons/MainCollectionButton";
@@ -10,6 +11,7 @@ const Home = () => {
         <CreatorsMarketButton />
       </div>
       <HeroSection />
+      <BrandSection />
     </div>
   );
 };

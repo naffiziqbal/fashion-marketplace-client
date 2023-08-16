@@ -11,7 +11,7 @@ import CreateButton from "../ui/buttons/CreateButton";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row  mt-12 gap-12">
+    <div className="flex flex-col lg:flex-row  my-12 gap-12">
       <div className=" ">
         <h2 className="font-bold lg:text-[60px] md:text-[40px] text-5xl mb-[15px] leading-[64px]">
           Clothes are the <br /> Spirit of Fashion
