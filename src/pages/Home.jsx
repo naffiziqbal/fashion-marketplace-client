@@ -1,3 +1,4 @@
+import AboutSection from "../components/aboutSection/AboutSection";
 import BrandSection from "../components/brandSection/BrandSection";
 import HeroSection from "../components/heroSection/HeroSection";
 import CreatorsMarketButton from "../components/ui/buttons/CreatorsMarketButton";
@@ -12,6 +13,7 @@ const Home = () => {
       </div>
       <HeroSection />
       <BrandSection />
+      <AboutSection />
     </div>
   );
 };
