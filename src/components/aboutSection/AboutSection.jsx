@@ -3,7 +3,7 @@ import ShowMoreBtn from "../ui/buttons/ShowMoreBtn";
 
 const AboutSection = () => {
   return (
-    <div className="my-6">
+    <div className="mx-6">
       {/* ---------------------------------------------------------- */}
       {/* Heading */}
       {/* ---------------------------------------------------------- */}
@@ -17,16 +17,16 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="flex gap-5 justify-start my-16">
+      <div className="flex lg:flex-row md:flex-row flex-col gap-5 justify-start my-16">
         {/* Img ----------- */}
-        <div className="w-1/2 ">
+        <div className="lg:w-1/2 ">
           <figure>
-            <img className="w-fit" src={aboutImg} alt="" />
+            <img className="" src={aboutImg} alt="" />
           </figure>
         </div>
 
         {/* About Section Texts  */}
-        <div className="w-1/2">
+        <div className="lg:w-1/2 md:w-1/2">
           <h2 className="text-4xl font-bold my-5">Fashion That Speaks</h2>
           <p className="text-[#95929F] text-xl font-[400]">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error

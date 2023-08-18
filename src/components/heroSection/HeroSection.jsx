@@ -50,10 +50,10 @@ const HeroSection = () => {
       </div>
       {/* Image Gallery */}
       <div className={style.gallery}>
-        <div className={"grid grid-cols-3 gap-5  relative"}>
+        <div className={"grid grid-cols-3 gap-5 relative"}>
           <div className="flex flex-col gap-3">
-            <img src={img} alt="" />
-            <img src={img3} alt="" />
+            <img className="" src={img} alt="" />
+            <img className="" src={img3} alt="" />
             <img
               className="bg-green-500 rounded-xl max-h-[160px]"
               src={img6}
@@ -61,14 +61,13 @@ const HeroSection = () => {
             />
           </div>
           <div className="flex flex-col  gap-3">
-            <img src={img2} alt="" />
-
-            <img src={img4} alt="" />
-            <img className="bg-blue-600 rounded-xl  " src={img7} alt="" />
+            <img className="" src={img2} alt="" />
+            <img className="" src={img4} alt="" />
+            <img className="bg-blue-600 rounded-xl   " src={img7} alt="" />
           </div>
           <div className="relative">
             <img
-              className="absolute top-1/2 -translate-y-1/2"
+              className="absolute top-1/2 -translate-y-1/2 "
               src={img5}
               alt=""
             />

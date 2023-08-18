@@ -2,10 +2,10 @@
 
 .gallery {
   margin: 0 auto;
-  max-width: 490px;
+  /* max-width: 490px; */
 }
 
 
 .gallery img {
-  max-width: 187px !important;
+  /* max-width: 187px !important; */
 }
