@@ -2,6 +2,7 @@ import AboutSection from "../components/aboutSection/AboutSection";
 import BrandSection from "../components/brandSection/BrandSection";
 import CollectionsInfo from "../components/collections/CollectionsInfo";
 import HeroSection from "../components/heroSection/HeroSection";
+import CollectionFillterButtons from "../components/ui/buttons/collectionButton/CollectionFillterButtons";
 import CreatorsMarketButton from "../components/ui/buttons/CreatorsMarketButton";
 import MainCollectionButton from "../components/ui/buttons/MainCollectionButton";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <BrandSection />
       <AboutSection />
       <CollectionsInfo />
+      <CollectionFillterButtons/>
     </div>
   );
 };
