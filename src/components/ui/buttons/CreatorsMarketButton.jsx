@@ -1,8 +1,8 @@
 const CreatorsMarketButton = () => {
   return (
     <div>
-      <button className=" border rounded-3xl p-3 min-w-[200px] ml-12 ">
-        Main Collections
+      <button className=" btn__ghost border ml-12 ">
+        Creators Market
       </button>
     </div>
   );

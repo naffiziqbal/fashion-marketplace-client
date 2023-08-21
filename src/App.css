@@ -1,0 +1,21 @@
+.btn__ghost {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 0.75rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 0.75rem;
+    -ms-border-radius: 0.75rem;
+    -o-border-radius: 0.75rem;
+}
+.btn {
+    font-weight: 600;
+    font-size: 20px;
+    background-image: linear-gradient(to top right,#671AE4, #B75CFF);
+    padding: 10px 20px;
+    border-radius: 0.75rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 0.75rem;
+    -ms-border-radius: 0.75rem;
+    -o-border-radius: 0.75rem;
+}
