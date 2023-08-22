@@ -2,15 +2,16 @@ import { useState } from "react";
 import style from "./CollectionBtn.module.css";
 import Products from "../../../products/Products";
 import VerifiedProducts from "../../../products/VerifiedProducts";
+import BlankData from "../../errorPage/BlankData";
 const CollectionFillterButtons = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
     { title: "All Collection", content: <Products /> },
     { title: "Verified Brands", content: <VerifiedProducts /> },
-    { title: "Verified Artists", content: <p /> },
-    { title: "New Drops", content: <p /> },
-    { title: "Live Shows", content: <p /> },
+    { title: "Verified Artists", content: <BlankData /> },
+    { title: "New Drops", content: <BlankData /> },
+    { title: "Live Shows", content: <BlankData /> },
   ];
   const handleTabClick = (index) => {
     setActiveTab(index);

@@ -10,7 +10,7 @@ const Products = () => {
       .then((data) => setAllProductsData(data));
   }, []);
   return (
-    <div className="grid grid-cols-3 gap-5">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-5">
       {allProductsdata?.map((data, idx) => (
         <ProductCard key={idx} product={data} />
       ))}
